@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.MonoForAndroid_API_12" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sudoku\SudokuFactory.cs">
+    <Files>
+      <File FileName="Sudoku\MainActivity.cs" Line="29" Column="29" />
+      <File FileName="Sudoku\Sudoku.cs" Line="3" Column="3" />
+      <File FileName="Sudoku\Cell.cs" Line="1" Column="1" />
+      <File FileName="Sudoku\packages.config" Line="1" Column="1" />
+      <File FileName="Sudoku\GameGrid.cs" Line="3" Column="3" />
+      <File FileName="Sudoku\SudokuFactory.cs" Line="4" Column="4" />
+      <File FileName="Sudoku\GameLog.cs" Line="1" Column="1" />
+      <File FileName="Sudoku\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Sudoku\obj\Debug\android\AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="Sudoku\Properties\AndroidManifest.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sudoku MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

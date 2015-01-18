@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamarin.Forms.Labs.Services.Ninject</name>
+    </assembly>
+    <members>
+        <member name="T:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer">
+            <summary>
+            The Ninject container.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.#ctor(Ninject.IKernel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer"/> class.
+            </summary>
+            <param name="kernel">
+            The kernel.
+            </param>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer"/> class with <see cref="T:Ninject.StandardKernel"/>.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.GetResolver">
+            <summary>
+            Gets the resolver from the container.
+            </summary>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IResolver"/></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.Register``1(``0)">
+            <summary>
+            Registers an instance of T to be stored in the container.
+            </summary>
+            <typeparam name="T">Type of instance.</typeparam>
+            <param name="instance">Instance of type T.</param>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IDependencyContainer"/></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.Register``2">
+            <summary>
+            Registers a type to instantiate for type T.
+            </summary>
+            <typeparam name="T">Type of instance.</typeparam>
+            <typeparam name="TImpl">Type to register for instantiation.</typeparam>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IDependencyContainer"/></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.RegisterSingle``2">
+            <summary>
+            Registers a type to instantiate for type T as singleton.
+            </summary>
+            <typeparam name="T">Type of instance.</typeparam>
+            <typeparam name="TImpl">Type to register for instantiation.</typeparam>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IDependencyContainer"/></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.Register``1(System.Type)">
+            <summary>
+            Tries to register a type.
+            </summary>
+            <typeparam name="T">Type of instance.</typeparam>
+            <param name="type">Type of implementation.</param>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IDependencyContainer"/></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.Register(System.Type,System.Type)">
+            <summary>
+            Tries to register a type.
+            </summary>
+            <param name="type">Type to register.</param>
+            <param name="impl">Type that implements registered type.</param>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IDependencyContainer"/></returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectContainer.Register``1(System.Func{Xamarin.Forms.Labs.Services.IResolver,``0})">
+            <summary>
+            Registers a function which returns an instance of type T.
+            </summary>
+            <typeparam name="T">Type of instance.</typeparam>
+            <param name="func">Function which returns an instance of T.</param>
+            <returns>An instance of <see cref="T:Xamarin.Forms.Labs.Services.IDependencyContainer"/></returns>
+        </member>
+        <member name="T:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver">
+            <summary>
+            The Ninject resolver.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver.#ctor(Ninject.IKernel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver"/> class.
+            </summary>
+            <param name="kernel">
+            The kernel.
+            </param>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver.Resolve``1">
+            <summary>
+            Resolve a dependency.
+            </summary>
+            <typeparam name="T">Type of instance to get.</typeparam>
+            <returns>An instance of {T} if successful, otherwise null.</returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver.Resolve(System.Type)">
+            <summary>
+            Resolve a dependency by type.
+            </summary>
+            <param name="type">Type of object.</param>
+            <returns>An instance to type if found as <see cref="T:System.Object"/>, otherwise null.</returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver.ResolveAll``1">
+            <summary>
+            Resolve a dependency.
+            </summary>
+            <typeparam name="T">Type of instance to get.</typeparam>
+            <returns>All instances of {T} if successful, otherwise null.</returns>
+        </member>
+        <member name="M:Xamarin.Forms.Labs.Services.Ninject.NinjectResolver.ResolveAll(System.Type)">
+            <summary>
+            Resolve a dependency by type.
+            </summary>
+            <param name="type">Type of object.</param>
+            <returns>All instances of type if found as <see cref="T:System.Object"/>, otherwise null.</returns>
+        </member>
+    </members>
+</doc>
