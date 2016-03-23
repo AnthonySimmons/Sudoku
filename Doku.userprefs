@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Doku\Doku.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.0.13:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Doku\GameGrid.cs">
+    <Files>
+      <File FileName="Doku\MainActivity.cs" Line="36" Column="4" />
+      <File FileName="Doku\SudokuFactory.cs" Line="87" Column="6" />
+      <File FileName="Doku\App.cs" Line="20" Column="32" />
+      <File FileName="Doku\GameGrid.cs" Line="320" Column="20" />
+      <File FileName="Doku\Sudoku.cs" Line="1" Column="1" />
+      <File FileName="Doku\Properties\AndroidManifest.xml" Line="4" Column="102" />
+      <File FileName="Doku\Properties\AssemblyInfo.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\Dev\Doku\Doku\Doku\GameGrid.cs" line="308" column="1" />
+      <Breakpoint file="E:\Dev\Doku\Doku\Doku\GameGrid.cs" line="326" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
