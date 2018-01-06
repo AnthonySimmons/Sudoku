@@ -5,12 +5,12 @@ using Android.App;
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle ("Doku")]
+[assembly: AssemblyTitle ("Sudoku")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("")]
 [assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("antho_000")]
+[assembly: AssemblyCopyright ("AnthonySimmons")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 

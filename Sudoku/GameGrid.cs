@@ -320,9 +320,9 @@ namespace Sudoku
 						solveBtn.SetValue(Button.IsEnabledProperty, false);
 
 
-						DisplayAlert ("Doku", gameLog.GetDisplayString (), "OK");
+						DisplayAlert ("Sudoku", gameLog.GetDisplayString (), "OK");
 
-						DisplayAlert ("Doku", "Completed in " + record.TimeString, "OK");
+						DisplayAlert ("Sudoku", "Completed in " + record.TimeString, "OK");
 
 
 					});
