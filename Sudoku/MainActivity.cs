@@ -8,12 +8,13 @@ using Android.OS;
 using Xamarin.Forms;
 using Button = Xamarin.Forms.Button;
 using Android;
+using Android.Content.PM;
 using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms.Platform;
 
 namespace Sudoku
 {
-	[Activity (Label = "Sudoku", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "Sudoku", MainLauncher = true, Icon = "@drawable/icon", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
 		public static Activity ActivityContext;
