@@ -41,6 +41,8 @@ namespace Sudoku
 
 		public TimeSpan gameTime;
 
+        public bool IsLoadedFromFile { get; private set; }
+
 		public int TimeCount;
 
 		public string TimeString
@@ -648,8 +650,9 @@ namespace Sudoku
 						}
 						row++;
 					}
-				}
-			}
+                }
+                IsLoadedFromFile = true;
+            }
 
 			if (!IsValid ()) 
 			{

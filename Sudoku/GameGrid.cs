@@ -80,7 +80,7 @@ namespace Sudoku
 			timer.Interval = 1000;
 			timer.Elapsed += TimerTicked;
 
-			if (!sudoku.IsComplete () || !sudoku.IsValid ()) 
+			if ((!sudoku.IsComplete () || !sudoku.IsValid ()) && sudoku.IsLoadedFromFile) 
 			{
 				timer.Start ();
 			}
@@ -701,10 +701,8 @@ namespace Sudoku
 				UpdateButtons ();
 				UpdateSelectionButtons ();
 			}
-			else 
-			{
-				timer.Start ();
-			}
+
+            timer.Start ();
 		}
 
 		private void NumberPicked(object sender, EventArgs e)
